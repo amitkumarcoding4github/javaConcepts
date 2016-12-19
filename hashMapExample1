@@ -1,0 +1,23 @@
+package collections.learning;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Trial1 {
+	String s = "Hello";
+	Trial1(String s)
+	{
+		this.s = s;
+	}
+	public static void main(String[] args) {
+		Trial1 t = new Trial1("New Hello");
+		int[] a = {1,2,3,6,2};
+		int[] b = {3,6,2};
+		HashMap<Integer,int[]> hm = new HashMap<Integer, int[]>();
+		hm.put(0, a);
+		hm.put(1, b);
+//		Set<E> keysets = new HashSet<>();
+	}
+
+}
